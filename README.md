@@ -53,6 +53,13 @@ All nodes are configured with static IP addresses within the `10.0.0.0/24` subne
 
 ---
 
+## Project Modules
+
+Detailed documentation for each phase of the lab can be found in the respective directories:
+
+* **[1: Networking & Connectivity](./01-Networking/)** – *IP addressing, Topology, and verification.*
+* **[2: Active Directory & Domain Services](./02-Active-Directory/)** – *Domain Controller setup, OU structure, and GPO.*
+* **[3: Security Operations (SOC)](./03-Security-Operations/)** – *Wazuh SIEM installation and log ingestion.*
 
 ## Repository Structure
 
