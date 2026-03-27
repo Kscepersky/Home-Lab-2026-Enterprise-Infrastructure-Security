@@ -6,6 +6,8 @@
 ## Network Architecture (Topology)
 *Built on VMware Workstation Pro using isolated LAN segments to mimic a corporate environment.*
 
+![Home Lab Logical Topology](./01-Networking/network_topology.png)
+
 - **Internal LAN (Segment):** `10.0.0.0/24` (Fully isolated for security testing)
 - **Domain Name:** `homelab.local` (Local Domain)
 - **Host System:** AMD Ryzen 7 5700X | 32GB RAM
