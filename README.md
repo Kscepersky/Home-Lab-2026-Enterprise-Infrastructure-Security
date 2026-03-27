@@ -22,7 +22,7 @@ All nodes are configured with static IP addresses within the `10.0.0.0/24` subne
 | **SRV-2025** | 10.0.0.1 | [View Log](./01-Networking/logs/network_config_srv_2025.txt) |
 | **PC-WIN11** | 10.0.0.2 | [View Log](./01-Networking/logs/network_config_win11.txt) |
 | **PC-DEBIAN** | 10.0.0.3 | [View Log](./01-Networking/logs/network_config_debian.txt) |
-| **PC-KALI** | 10.0.0.4 | [View Log](./01-Networking/logs/betwork_config_kali.txt) |
+| **PC-KALI** | 10.0.0.10 | [View Log](./01-Networking/logs/betwork_config_kali.txt) |
 
 > **Note:** DNS resolution is handled by **DC01**, ensuring all domain-joined assets can resolve `homelab.local`.
 
