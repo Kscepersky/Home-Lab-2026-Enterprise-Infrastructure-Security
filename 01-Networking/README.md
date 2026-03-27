@@ -3,7 +3,7 @@
 This module covers the initial network configuration and connectivity verification between all lab assets.
 
 ## 🗺️ Logical Topology
-![Network Topology](./img/topology.png)
+![Network Topology](./img/network_topology.svg)
 
 ## 🔢 IP Address Allocation
 All systems use static IPv4 addresses within the `10.0.0.0/24` range.
