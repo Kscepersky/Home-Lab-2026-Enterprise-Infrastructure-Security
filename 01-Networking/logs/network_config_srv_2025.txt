@@ -1,0 +1,26 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : SRV-2025
+   Primary Dns Suffix  . . . . . . . : homelab.local
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : homelab.local
+
+Ethernet adapter Ethernet0:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) 82574L Gigabit Network Connection
+   Physical Address. . . . . . . . . : 00-0C-29-7F-4F-90
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::45ae:6df:50bc:d392%6(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 10.0.0.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 100666409
+   DHCPv6 Client DUID. . . . . . . . : 00-01-01-00-31-57-B9-A6-00-0C-29-7F-4F-90
+   DNS Servers . . . . . . . . . . . : ::1
+                                       127.0.0.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
