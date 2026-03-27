@@ -2,10 +2,10 @@
 
 This module covers the initial network configuration and connectivity verification between all lab assets.
 
-## 🗺️ Logical Topology
+## Logical Topology
 ![Network Topology](./img/network_topology.svg)
 
-## 🔢 IP Address Allocation
+## IP Address Allocation
 All systems use static IPv4 addresses within the `10.0.0.0/24` range.
 
 | Host | IP | Role |
@@ -15,7 +15,7 @@ All systems use static IPv4 addresses within the `10.0.0.0/24` range.
 | **PC-DEBIAN**| 10.0.0.3 | SIEM / Monitoring |
 | **PC-KALI** | 10.0.0.10 | Attack Machine |
 
-## 🧪 Verification Logs
+## Verification Logs
 Connectivity was confirmed via ICMP ping between all nodes. Detailed configuration outputs can be found here:
 - [SRV-2025 Network Log](./logs/network_config_srv_2025.txt)
 - [PC-WIN11 Network Log](./logs/network_config_win11.txt)
