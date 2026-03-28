@@ -44,7 +44,7 @@ Consistency is key for IT automation and directory clarity. I implemented a stri
 
 ### 1. Active Directory OU Tree View
 *Visual proof of the organized department-based structure.*
-> ![Active Directory OU Tree Structure](img/ad-structure.png)
+> ![Active Directory OU Tree Structure](img/ad_structure.png)
 
 ### 2. Standardized User Configuration
 *Demonstrating the 'initial.surname' naming convention in practice.*
