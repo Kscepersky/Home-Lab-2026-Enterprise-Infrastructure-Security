@@ -44,7 +44,7 @@
 Detailed documentation for each phase of the lab can be found in the respective directories:
 
 * **[1: Networking & Connectivity](./01-Networking/)** – *IP addressing, Topology, and verification.*
-* **[2: Active Directory & Domain Services](./02-Active-Directory/)** – *Domain Controller setup, OU structure, and GPO.*
+* **[2: Active Directory & Domain Services](./02-Active_Directory/)** – *Domain Controller setup, OU structure, and GPO.*
 * **[3: Security Operations (SOC)](./03-Security-Operations/)** – *Wazuh SIEM installation and log ingestion.*
 
 ## Repository Structure
