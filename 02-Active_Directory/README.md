@@ -16,3 +16,45 @@ The structure was designed to reflect a real-world corporate environment, ensuri
     ├── 📂 HR-DEPT (Standard Users - High-Risk Phishing Group)
     ├── 📂 WORKSTATIONS (Computer Objects for Client Machines)
     └── 📂 GROUPS (Security & Distribution Groups)
+```
+
+## Key Implementation Features
+
+### **1. Protection from Accidental Deletion**
+To ensure high availability and prevent administrative errors, all critical OUs were hardened using the **Accidental Deletion Protection** flag. This prevents unauthorized or accidental modification of the directory tree.
+
+### **2. RBAC (Role-Based Access Control)**
+The directory was designed from the ground up to support **RBAC**. By separating users into functional OUs (HR, IT, Admins), I established a framework where permissions are delegated based on job functions rather than individual user accounts, simplifying audits and security.
+
+### **3. Tiered Administration Readiness**
+Following modern security best practices (Microsoft Tier Model), I separated **Administrative Accounts (Tier 0)** from daily productivity accounts. This strategy is vital for mitigating **Lateral Movement** risks during a potential network breach.
+
+## 👤 Identity Management Standards
+Consistency is key for IT automation and directory clarity. I implemented a strict **Naming Convention** standard for all objects within the domain.
+
+| Attribute | Standard | Example |
+| :--- | :--- | :--- |
+| **User Logon Name** | `initial.surname` | `j.kowalski` |
+| **Display Name** | `First Last` | `Jan Kowalski` |
+| **Security Groups** | `GRP-[Dept]-[Function]` | `GRP-IT-Admins` |
+
+---
+
+## Implementation Evidence (Screenshots)
+
+### 1. Active Directory OU Tree View
+*Visual proof of the organized department-based structure.*
+> ![Active Directory OU Tree Structure](img/ad-structure.png)
+
+### 2. Standardized User Configuration
+*Demonstrating the 'initial.surname' naming convention in practice.*
+> ![Standardized User Configuration](img/user-config.png)
+
+---
+
+## Tech Stack & Tools
+* **Operating System:** Windows Server 2025 Datacenter (Domain Controller)
+* **Role:** AD DS (Active Directory Domain Services), DNS
+* **Tools:** ADUC (Active Directory Users and Computers), RSAT (Remote Server Administration Tools)
+
+---
